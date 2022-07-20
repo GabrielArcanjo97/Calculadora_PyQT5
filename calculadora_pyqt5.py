@@ -44,12 +44,12 @@ class Calculadora(QMainWindow):
         self.add_btn(QPushButton('2'), 3, 1, 1, 1)
         self.add_btn(QPushButton('3'), 3, 2, 1, 1)
         self.add_btn(QPushButton('*'), 3, 3, 1, 1)
-        self.add_btn(QPushButton(''), 3, 4, 1, 1)
+        self.add_btn(QPushButton('/'), 3, 4, 1, 1)
 
         self.add_btn(QPushButton('.'), 4, 0, 1, 1)
         self.add_btn(QPushButton('0'), 4, 1, 1, 1)
-        self.add_btn(QPushButton(','), 4, 2, 1, 1)
-        self.add_btn(QPushButton('/'), 4, 3, 1, 1)
+        self.add_btn(QPushButton('('), 4, 2, 1, 1)
+        self.add_btn(QPushButton(')'), 4, 3, 1, 1)
         self.add_btn(
             QPushButton('='), 4, 4, 1, 1,
             self.eval_igual,
